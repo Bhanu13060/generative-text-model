@@ -1,0 +1,7 @@
+model.save("models/lstm_model.h5")  # for LSTM
+model.save_pretrained("models/gpt_model")  # for GPT
+
+    utility scripts
+    preprocess.py — text cleaning, tokenization
+    evaluate.py — optional functions to score coherence, diversity
+     These keep your notebook clean and modular.
